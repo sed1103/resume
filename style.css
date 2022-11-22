@@ -1,0 +1,57 @@
+.first-part {
+    height: 711px;
+    background-image: url(bg1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first-part .title {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 65px;
+    text-align: right;
+    margin-right: 3rem;
+    padding-top: 10rem;
+}
+
+.first-part .text {
+    font-family: 'Readex Pro', sans-serif;
+    text-align: right;
+    padding-right: 3rem;
+    font-size: 25px;
+}
+
+.first-part .container {
+    width: 40rem;
+    margin-right: 5rem !important; 
+}
+.first-part .btn-dark {
+    margin-left: 26rem;
+}
+
+.second-part {
+    background-color: #B0B7A7;
+}
+
+.second-part .my-image {
+    display: flex;
+    justify-content: end;
+    background-color: #B0B7A7;
+}
+.second-part .title {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 65px;
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+.second-part .accordion-button {
+    background-color: #B0B7A7 !important;
+}
+.second-part .accordion {
+    --bs-accordion-btn-color: white !important;
+    --bs-accordion-btn-focus-border-color: white !important;
+    --bs-accordion-active-color: white !important;
+}
+.second-part .accordion-item {
+    background-color: #B0B7A7 !important;
+}
